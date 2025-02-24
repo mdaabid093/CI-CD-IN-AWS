@@ -7,5 +7,6 @@ def hello():
     return 'Md Aabid Hussainn'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=8000)  # Allows external access
+
 
